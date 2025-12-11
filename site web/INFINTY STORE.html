@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>INFINITY STORE - Professional Repair Services</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <!-- Header/Navigation -->
+    <header>
+        <nav class="navbar">
+            <div class="container">
+                <div class="logo">
+                    <img src="image/logo_new.jpg" alt="INFINITY MOBILE LOGO" class="logo-img">
+                    <span>INFINITY STORE</span>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#products">Products</a></li>
+                    <li><a href="#pricing">Pricing</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Professional Mobile Repair & Parts</h1>
+            <p>Expert phone repair and premium replacement parts for all brands</p>
+            <button class="cta-btn">Book Service Now</button>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <h2>Our Repair Services</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <i class="fas fa-mobile-alt"></i>
+                    <h3>Screen Repair</h3>
+                    <p>Expert screen replacement for all phone models including Samsung, iPhone, and more</p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-battery-full"></i>
+                    <h3>Battery Replacement</h3>
+                    <p>Quick battery swap to restore your phone's power with genuine parts</p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-tools"></i>
+                    <h3>General Repair</h3>
+                    <p>Comprehensive repair for all phone issues and hardware problems</p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-water"></i>
+                    <h3>Water Damage</h3>
+                    <p>Professional water damage restoration and motherboard repair</p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-charging-station"></i>
+                    <h3>Charging Port</h3>
+                    <p>Fast charging port repair and replacement for all models</p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-microchip"></i>
+                    <h3>Software Issues</h3>
+                    <p>Fix software glitches, OS issues, and system problems</p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-camera"></i>
+                    <h3>Camera Repair</h3>
+                    <p>Front and rear camera replacement and repair services</p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-sliders-h"></i>
+                    <h3>Button & Sensor</h3>
+                    <p>Power button, volume control, and sensor repairs</p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-gamepad"></i>
+                    <h3>Console Repair</h3>
+                    <p>Repair for PlayStation, Xbox, Nintendo Switch and controllers</p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-laptop"></i>
+                    <h3>PC & Laptop Repair</h3>
+                    <p>Hardware upgrades, screen replacement, and software fixes for computers</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section id="products" class="products">
+        <div class="container">
+            <h2>Premium Replacement Parts</h2>
+            <div class="products-filters">
+                <button class="filter-btn active" data-filter="all">All Products</button>
+                <button class="filter-btn" data-filter="samsung">Samsung</button>
+                <button class="filter-btn" data-filter="iphone">iPhone</button>
+                <button class="filter-btn" data-filter="accessories">Accessories</button>
+            </div>
+            <div class="products-grid">
+                <!-- Samsung Products -->
+                <div class="product-card" data-filter="samsung">
+                    <div class="product-image">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <h3>Samsung Display Panel</h3>
+                    <p class="product-brand">Galaxy A12, A13, A14</p>
+                    <p class="product-desc">Original quality AMOLED display replacement</p>
+                    <p class="product-price">DNT 80 - 1000 </p>
+                    <button class="product-btn">Add to Cart</button>
+                </div>
+
+                <div class="product-card" data-filter="samsung">
+                    <div class="product-image">
+                        <i class="fas fa-battery-full"></i>
+                    </div>
+                    <h3>Samsung Battery</h3>
+                    <p class="product-brand">Galaxy S10, S20, S21 and other </p>
+                    <p class="product-desc">High capacity lithium-ion battery 3000mAh+</p>
+                    <p class="product-price">DNT 45 - 155</p>
+                    <button class="product-btn">Add to Cart</button>
+                </div>
+
+                <div class="product-card" data-filter="samsung">
+                    <div class="product-image">
+                        <i class="fas fa-charging-station"></i>
+                    </div>
+                    <h3>Samsung Charging Port</h3>
+                    <p class="product-brand">Universal Samsung Models</p>
+                    <p class="product-desc">USB-C charging port assembly with connector</p>
+                    <p class="product-price">DNT 15 - 45 </p>
+                    <button class="product-btn">Add to Cart</button>
+                </div>
+
+                <!-- iPhone Products -->
+                <div class="product-card" data-filter="iphone">
+                    <div class="product-image">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <h3>iPhone Display</h3>
+                    <p class="product-brand">iPhone 12, 13, 14, 15</p>
+                    <p class="product-desc">Retina LCD display replacement with guarantee</p>
+                    <p class="product-price">DNT 65 - 120</p>
+                    <button class="product-btn">Add to Cart</button>
+                </div>
+
+                <div class="product-card" data-filter="iphone">
+                    <div class="product-image">
+                        <i class="fas fa-battery-full"></i>
+                    </div>
+                    <h3>iPhone Battery</h3>
+                    <p class="product-brand">All iPhone Models</p>
+                    <p class="product-desc">Genuine quality replacement battery</p>
+                    <p class="product-price">DNT 35 - 55</p>
+                    <button class="product-btn">Add to Cart</button>
+                </div>
+
+                <div class="product-card" data-filter="iphone">
+                    <div class="product-image">
+                        <i class="fas fa-camera"></i>
+                    </div>
+                    <h3>iPhone Camera Module</h3>
+                    <p class="product-brand">iPhone 11, 12, 13</p>
+                    <p class="product-desc">Rear camera assembly with lens and flash</p>
+                    <p class="product-price">DNT 50 - 85</p>
+                    <button class="product-btn">Add to Cart</button>
+                </div>
+
+                <!-- Accessories -->
+                <div class="product-card" data-filter="accessories">
+                    <div class="product-image">
+                        <i class="fas fa-plug"></i>
+                    </div>
+                    <h3>USB Cable Bundle</h3>
+                    <p class="product-brand">Universal</p>
+                    <p class="product-desc">USB-C, Lightning, Micro USB cables (5-pack)</p>
+                    <p class="product-price">DNT 12</p>
+                    <button class="product-btn">Add to Cart</button>
+                </div>
+
+                <div class="product-card" data-filter="accessories">
+                    <div class="product-image">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3>Tempered Glass Screen Protector</h3>
+                    <p class="product-brand">All Sizes</p>
+                    <p class="product-desc">9H hardness glass protector with installation kit</p>
+                    <p class="product-price">DNT 5 - 50</p>
+                    <button class="product-btn">Add to Cart</button>
+                </div>
+
+                <div class="product-card" data-filter="accessories">
+                    <div class="product-image">
+                        <i class="fas fa-tools"></i>
+                    </div>
+                    <h3>Repair Tool Kit</h3>
+                    <p class="product-brand">Professional Grade</p>
+                    <p class="product-desc">Complete set with screwdrivers, openers, and more</p>
+                    <p class="product-price">DNT 25</p>
+                    <button class="product-btn">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section id="pricing" class="pricing">
+        <div class="container">
+            <h2>Service Pricing</h2>
+            <div class="pricing-grid">
+                <div class="pricing-card">
+                    <h3>Screen Repair</h3>
+                    <p class="price-range">DNT 90 - 150</p>
+                    <ul class="pricing-features">
+                        <li><i class="fas fa-check"></i> All phone brands</li>
+                        <li><i class="fas fa-check"></i> Professional installation</li>
+                        <li><i class="fas fa-check"></i> 12-month warranty</li>
+                    </ul>
+                </div>
+
+                <div class="pricing-card">
+                    <h3>Battery Replacement</h3>
+                    <p class="price-range">DNT 80 - 120</p>
+                    <ul class="pricing-features">
+                        <li><i class="fas fa-check"></i> Genuine batteries</li>
+                        <li><i class="fas fa-check"></i> Quick service</li>
+                        <li><i class="fas fa-check"></i> 6-month warranty</li>
+                    </ul>
+                </div>
+
+                <div class="pricing-card">
+                    <h3>Water Damage Repair</h3>
+                    <p class="price-range">DNT 150 - 250</p>
+                    <ul class="pricing-features">
+                        <li><i class="fas fa-check"></i> Cleaning & drying</li>
+                        <li><i class="fas fa-check"></i> Component replacement</li>
+                        <li><i class="fas fa-check"></i> Full diagnostics</li>
+                    </ul>
+                </div>
+
+                <div class="pricing-card">
+                    <h3>Charging Port Repair</h3>
+                    <p class="price-range">DNT 30 - 80</p>
+                    <ul class="pricing-features">
+                        <li><i class="fas fa-check"></i> Port replacement</li>
+                        <li><i class="fas fa-check"></i> Quick turnaround</li>
+                        <li><i class="fas fa-check"></i> 12-month warranty</li>
+                    </ul>
+                </div>
+
+                <div class="pricing-card">
+                    <h3>Camera Repair</h3>
+                    <p class="price-range">DNT 150 - 250</p>
+                    <ul class="pricing-features">
+                        <li><i class="fas fa-check"></i> Module replacement</li>
+                        <li><i class="fas fa-check"></i> Quality assured</li>
+                        <li><i class="fas fa-check"></i> 6-month warranty</li>
+                    </ul>
+                </div>
+
+                <div class="pricing-card">
+                    <h3>Software Repair</h3>
+                    <p class="price-range">DNT 20 - 60</p>
+                    <ul class="pricing-features">
+                        <li><i class="fas fa-check"></i> OS reinstall</li>
+                        <li><i class="fas fa-check"></i> Data preservation</li>
+                        <li><i class="fas fa-check"></i> Remote support</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2>Why Choose INFINITY MOBILE?</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <ul class="features-list">
+                        <li><i class="fas fa-check"></i> Same-day repairs available</li>
+                        <li><i class="fas fa-check"></i> Certified experienced technicians</li>
+                        <li><i class="fas fa-check"></i> Genuine parts warranty</li>
+                        <li><i class="fas fa-check"></i> Most affordable pricing</li>
+                        <li><i class="fas fa-check"></i> 100% customer satisfaction</li>
+                        <li><i class="fas fa-check"></i> 10+ years industry experience</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Get in Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="info-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h3>Phone</h3>
+                            <p>+216 23473755</p>
+                            <p class="small-text">Available 24/7</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h3>Location</h3>
+                            <p>123 Main Street, Your City</p>
+                            <p class="small-text">Open: Mon-Sat 9AM-8PM</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h3>Email</h3>
+                            <p>info@infinitymobile.com</p>
+                            <p class="small-text">Response within 24 hours</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-clock"></i>
+                        <div>
+                            <h3>Business Hours</h3>
+                            <p>Monday - Friday: 9AM - 8PM</p>
+                            <p>Saturday: 10AM - 6PM</p>
+                        </div>
+                    </div>
+                </div>
+                <form class="contact-form">
+                    <input type="text" placeholder="Your Name" required>
+                    <input type="email" placeholder="Your Email" required>
+                    <input type="tel" placeholder="Your Phone Number" required>
+                    <select required>
+                        <option value="">Select Service Type</option>
+                        <option value="screen">Screen Repair</option>
+                        <option value="battery">Battery Replacement</option>
+                        <option value="water">Water Damage</option>
+                        <option value="charging">Charging Port</option>
+                        <option value="camera">Camera Repair</option>
+                        <option value="software">Software Issues</option>
+                        <option value="other">Other</option>
+                    </select>
+                    <textarea placeholder="Describe your issue..." rows="5" required></textarea>
+                    <button type="submit" class="submit-btn">Submit Request</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>About Us</h4>
+                    <p>INFINITY MOBILE is your trusted partner for professional phone repair and premium replacement
+                        parts.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#products">Products</a></li>
+                        <li><a href="#pricing">Pricing</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Follow Us</h4>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 INFINITY STORE. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
